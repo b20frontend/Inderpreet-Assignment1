@@ -1,0 +1,52 @@
+body
+{
+	margin: 0;
+	padding:5px;
+	font-family: sans-serif;
+}
+nav
+{
+	width:100%;
+	background:lightblue;
+}
+ul
+{
+	width:85%;
+	margin:0px auto;
+	padding:5px;
+}
+ul li
+{
+	margin:5px;
+	list-style:none;
+	display: inline-block;
+	padding: 10px;
+	border: 1px solid #fff;
+}
+ul li:hover
+{
+	background:#fff;
+	color:#000;
+}
+ul li a:hover
+{
+	color:#000;
+}
+@media only screen and (max-width:1000px)
+{
+	body
+	{
+		background-color: grey;
+	}
+	ul li
+	{
+		display:block;
+		border: none;
+		border-bottom:1px solid deepskyblue;
+	}
+	figure
+	{
+		<img src="Images/map.png">
+		<figcaption>Ooops, text and image changed..</figcaption>
+	}
+}

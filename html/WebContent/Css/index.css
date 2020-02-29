@@ -1,0 +1,55 @@
+body
+{
+	margin: 0;
+	padding:0px;
+	font-family: sans-serif;
+}
+.wrapper
+{
+	background-color:lightblue;
+	margin: 0 auto;
+	padding: 0 10px;
+	width:100%;
+	display: inline-block;
+	
+}
+header.nav1
+{
+	margin-left: 900px;
+	float:right;
+}
+.nav1 ul li
+{
+	
+	display:inline-block;	
+	margin: 5px;
+	padding:10 30px;
+}
+.nav1 ul li:hover
+{
+	background:#fff;
+	color:#000;
+}
+.nav1 ul li a:hover
+{
+	color:#000;
+}
+
+.logo
+{
+	width:auto;
+	float: left;
+	display:block;
+}
+#name
+{
+	font-size:20px;
+	padding:10px;
+	margin:0 5px;
+}
+#slogan
+{
+	color:white;
+	float: left;
+	background-color: black;
+}	

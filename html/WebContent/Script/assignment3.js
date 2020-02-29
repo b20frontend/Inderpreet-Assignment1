@@ -1,0 +1,1 @@
+document.getElementById("js1").innerHTML="New text!!";
